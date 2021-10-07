@@ -11,3 +11,6 @@
 
 #### Program Output
 ![Output](message.png)
+
+#### Message count
+![Count](count.png)

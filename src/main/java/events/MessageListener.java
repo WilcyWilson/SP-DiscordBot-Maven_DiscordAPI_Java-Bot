@@ -4,10 +4,13 @@ import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 public class MessageListener extends ListenerAdapter {
-	// Guild is the Discord Server, when bot receives message from the discord server
+	// Guild is the Disscord Server, when bot receives message from the discord
+	// server
 	@Override
 	public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
-		System.out.println("message received!");
+		// if the user is not a bot reply with Hello. Preventing infinite loop.
+		int count = event.getMessage().getContentRaw().length();
+		if (!event.getAuthor().isBot())  
+			event.getMessage().reply("Number of letters in your message: " + count).queue(); 
 	}
-	
 }
