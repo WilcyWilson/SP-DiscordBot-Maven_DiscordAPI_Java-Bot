@@ -1,9 +1,11 @@
-### Steps to get started
+### Event Handling 
 
-- Maven is a build automation tool that handles dependencies for different types of projects.
-- Create a Discord Bot through your discord account first and add it to your discord server.
-- Copy the properties and dependency to the pom.xml from Java Discord API Github.
+- Like bot reacting to a user message.
 
-## Working Bot
+### Here below we receive the output whenever a message is sent to the server
 
-![Demo](demo.png)
+#### Discord
+![Discord](discord.png)
+
+#### Program Output
+![Output](message.png)
