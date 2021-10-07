@@ -14,7 +14,6 @@ public class Main {
 		JDABuilder jdaBuilder = JDABuilder.createDefault(token);
 		jdaBuilder.setStatus(OnlineStatus.DO_NOT_DISTURB);
 		jdaBuilder.setActivity(Activity.playing("Potato"));
-		
 		jdaBuilder.addEventListeners(new MessageListener());
 		
 		try {

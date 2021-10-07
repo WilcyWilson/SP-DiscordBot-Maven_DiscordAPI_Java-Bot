@@ -10,7 +10,10 @@ public class MessageListener extends ListenerAdapter {
 	public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
 		// if the user is not a bot reply with Hello. Preventing infinite loop.
 		int count = event.getMessage().getContentRaw().replaceAll(" ", "").length();
-		if (!event.getAuthor().isBot())  
-			event.getMessage().reply("Number of letters in your message: " + count).queue(); 
+		if (!event.getAuthor().isBot()) {
+			event.getMessage().reply("Number of letters in your message: " + count).queue();
+			event.getMessage().reply("Time is: " + java.time.LocalTime.now()).queue();
+		}
 	}
+
 }
