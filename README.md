@@ -1,4 +1,4 @@
-### Event Handling 
+### Command Handling 
 
 - Adding command so that bot can reply to specific command
 - ?date will reply with a date
