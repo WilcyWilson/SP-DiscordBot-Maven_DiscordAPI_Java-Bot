@@ -1,16 +1,14 @@
 ### Event Handling 
 
-- Like bot reacting to a user message.
-- Authorize your bot in Discord with Client ID.
-*https://discordapp.com/oauth2/authorize?&client_id=[CLIENTID]&scope=bot*
+- Adding command so that bot can reply to specific command
+- ?date will reply with a date
+- ?users will reply with all the users in the server
 
 ### Here below we receive the output whenever a message is sent to the server
 
-#### Discord
-![Discord](discord.png)
+#### Date
+![Discord](date.png)
 
-#### Program Output
-![Output](message.png)
+#### Users
+![Output](users.png)
 
-#### Message count
-![Count](count.png)
