@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
