@@ -1,14 +1,11 @@
-### Command Handling 
+### Message Embed
 
-- Adding command so that bot can reply to specific command
-- ?date will reply with a date
-- ?users will reply with all the users in the server
+- Message Embed provides a more descriptive to show messages in discord.
+- It consists of option like colors,description,footer,title,images,thumbnail etc.
 
-### Here below we receive the output whenever a message is sent to the server
+### Discord bot that lists the current users in the server and also shows number of users in the server at the bottom
 
-#### Date
-![Discord](date.png)
+#### Message Embed
+![Embed](embed.png)
 
-#### Users
-![Output](users.png)
 
