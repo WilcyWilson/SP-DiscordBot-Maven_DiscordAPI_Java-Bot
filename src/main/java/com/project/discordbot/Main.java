@@ -10,7 +10,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 
 public class Main {
 	public static void main(String[] args) {
-		String token = "ODk1Njg1MDkxMjc4MzUyNDI0.YV8Jvg.drVelGdEG2CQvnOOy9WbNnn8QLE";
+		String token = "fake-token";
 		JDABuilder jdaBuilder = JDABuilder.createDefault(token);
 		jdaBuilder.enableIntents(GatewayIntent.GUILD_MEMBERS); // Enables Presence tracking and tracks member activity
 		jdaBuilder.setStatus(OnlineStatus.DO_NOT_DISTURB);
