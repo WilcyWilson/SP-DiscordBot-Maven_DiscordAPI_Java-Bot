@@ -17,8 +17,7 @@ public class MessageListener extends ListenerAdapter {
 		event.getGuild().getDefaultChannel().sendMessageEmbeds(embedBuilder.build()).queue();
 	}
 
-	// Guild is the Discord Server, when bot receives message from the discord
-	// server
+	// Guild is the Discord Server, when bot receives message from the discord server
 	@Override
 	public void onGuildMessageReceived(GuildMessageReceivedEvent event) {
 		// if the user is not a bot reply with Hello. Preventing infinite loop.
